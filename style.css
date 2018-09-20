@@ -1,0 +1,94 @@
+body {
+	background-image: url('bg.png');
+}
+h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+h2{
+	text-align: center;
+	font-family: 'Righteous', cursive
+}
+.footer {
+	border-top: 1px solid black;
+	position: fixed;
+	left: 0;
+	bottom: 22px;
+	width: 100%;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: none;
+	border-bottom: 1px solid black;
+}
+.nav a{
+	transition: 0.3s all ease;
+
+}
+.nav a:link, .nav a:visited{
+
+}
+.nav a:hover, .nav a:active{
+	transform: scale(1.2);
+	color: lime;
+}
+.name a{
+	font-size: 1.25em;
+	font-weight: bold;
+	font-family: 'Righteous', cursive;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	list-style-type: none;
+	font-size: 1em;
+	font-weight: lighter;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;  
+
+}
+.resume {
+	font-size: 1.025em; 
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.ul2 {
+	border-bottom: none;
+}
+.cinfo {
+	float: none !important;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: .93em;
+}
+.cinfo a {
+	display: inline-block;
+	padding: 8px;
+	background-color: white;
+	transition: 0.3s all ease;
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	border: 2px solid black;
+	border-radius: 6px;
+	margin-bottom: 5px;
+}
+.cinfo a:link, .cinfo a:visited{
+
+}
+.cinfo a:hover, .cinfo a:active{
+	transform: scale(1.2);
+	color: lime;
+	background-color: black;
+	border: 2px solid white;
+}
