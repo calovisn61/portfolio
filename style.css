@@ -83,6 +83,8 @@ li a {
 	margin-bottom: 5px;
 }
 .cinfo a:link, .cinfo a:visited{
+	text-decoration: none;
+	color: black;
 
 }
 .cinfo a:hover, .cinfo a:active{
