@@ -67,7 +67,7 @@ function reset(){
 			squares[i].style.display = "none";
 		}
 	}
-	
+	h1.style.background = "white";
 }
 
 // // These two below are the same as the above block
